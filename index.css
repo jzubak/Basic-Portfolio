@@ -77,14 +77,14 @@ h2 {
     font-weight: bold;
     color : #4aaaa5;
     border: 2px;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
     border-color: rgb(207, 203, 203);
 }
 
 .div3 {
     width: 960px;
-    height: 960px;
+    height: 600px;
     background: #fff;
     margin-top: 25px;
     margin-left: 100px;
@@ -98,10 +98,12 @@ img{
     float: left;
     height: 200px;
     width: 200px;
+    padding-left: 20px;
 }
 .hr2{
     height: 2px;
     width: 95%;
+    padding-left: 0;
     align-content: center;
     color:solid grey;
     z-index: 1;

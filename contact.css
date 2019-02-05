@@ -1,5 +1,5 @@
 input[type=text], select {
-    width: 100%;
+    width: 97%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -9,7 +9,7 @@ input[type=text], select {
   }
 
 input[type=text2], select {
-    width: 100%;
+    width: 97%;
     height: 300px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -30,7 +30,7 @@ input[type=submit] {
     cursor: pointer;
   }
   
-input[type=submit]:hover {s
+input[type=submit]:hover {
     background-color:  #4aaaa5;
   }
   
@@ -38,5 +38,5 @@ input[type=submit]:hover {s
     font-family: "Arial", Helvetica, sans-serif;
     border-radius: 5px;
     background-color: white;
-    padding: 20px;
+    padding-left: 30px;
   }
