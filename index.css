@@ -96,7 +96,8 @@ ul {
     width: 100%;
     margin:0;
     padding:0;
-    color:solid grey;
+    background-color:#cccccc;
+    border: none;
 }
 
 .div2{
@@ -110,7 +111,7 @@ h2 {
     border: 2px;
     padding-top: 30px;
     padding-left: 30px;
-    border-color:#cccccc;
+    border-color:#dddddd;
 }
 
 .div3 {
@@ -134,11 +135,12 @@ h2 {
     margin-right: 15px;
 }
 .hr2{
+    border: none;
     height: 2px;
     width: 95%;
     padding-left: 0;
     align-content: center;
-    color:solid grey;
+    background-color:#dddddd;
     z-index: 1;
 }
 
