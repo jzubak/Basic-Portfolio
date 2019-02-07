@@ -1,0 +1,47 @@
+table{
+    border-collapse: collapse;
+    box-align: center;
+}
+
+tr{
+    box-align: center;
+    height: 200px;
+    width: 200px}
+
+td{
+    padding: 20px;
+    align-self: center;
+}
+
+.img2{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-left: 90px;
+    margin: 0 auto;
+}
+
+.caption {
+    /* float: right;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    z-index: 99;
+    font-family:'Georgia', Times New Roman, Times, serif;
+    background-color: #4aaaa5;
+    opacity: 50%; */
+    position: relative;
+    width: 200px;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(74,170,165);
+    background: rgba(74,170,165, 0.75);
+    color: white;
+    padding-left: 0px;
+    padding-right: 20px;
+ }
+
+ caption:hover {
+    background-color: rgba(74,170,165, 0.5);
+  }

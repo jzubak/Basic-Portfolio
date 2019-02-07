@@ -1,7 +1,7 @@
 /* this is the overarching style sheet to be used as a baseline for all three pages */
 body{
     margin: 0;
-    background-color: rgb(173, 167, 167); 
+    background-image: url('assets/images/gravel/gravel.png');
 }
 
 .div1{
@@ -43,6 +43,32 @@ h1 {
     padding-top: 3%;
     }
 
+a:link, a:visited{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: rgb(9, 7, 114);
+    text-decoration: none;
+}
+
+a:active{
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase; 
+    color: rgb(158, 12, 12);
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -52,14 +78,6 @@ ul {
     }
 
 
-a:link, a:visited{
-    width: 120px;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase; 
-    color: grey;
-    text-decoration: none;
-}
 .hr1{
     height: 2px;
     width: 100%;
@@ -84,21 +102,23 @@ h2 {
 
 .div3 {
     width: 960px;
-    height: 600px;
+    height: relative;
     background: #fff;
     margin-top: 25px;
     margin-left: 100px;
+    padding: 15px 10px 15px 10px;
     border: 2px;
     border-color: rgb(207, 203, 203);
     background-color: white;
 }
 
-img{
+.img1{
     position: relative;
     float: left;
     height: 200px;
     width: 200px;
     padding-left: 20px;
+    margin-right: 15px;
 }
 .hr2{
     height: 2px;
@@ -113,6 +133,35 @@ p{
     z-index: 99;
     background: white;
 }
+
+.hr3{
+    position: relative;
+    height: 6px;
+    width: 100%;
+    padding-left: 0;
+    align-content: center;
+    color: #4aaaa5;
+    z-index: 1;
+}
+
+.footerline{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    color: #4aaaa5;
+    /* z-index: 1; */
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+    background-color: #c1c1c1;
+    padding: 20px;
+    text-align: center;
+  }
 
 .clearfix:after {
     content: "";
